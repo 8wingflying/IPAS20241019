@@ -7,6 +7,9 @@
 - [法律彙編](https://www.nics.nat.gov.tw/cybersecurity_resources/publications/Compilation_of_Laws/)
 
 ## 錄影教學:管理篇
+- FIDO身分認證
+- 零信任架構 | ZTA | Zero Trust Architecture
+  - [國家資通安全研究院|](https://www.nics.nat.gov.tw/core_business/cybersecurity_defense/ZTA/) 
 ## 錄影教學:技術篇
 - DNS 安全威脅
 - Email攻擊與安全防護
