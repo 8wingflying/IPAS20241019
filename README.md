@@ -9,4 +9,6 @@
 ## 錄影教學:管理篇
 ## 錄影教學:技術篇
 - DNS 安全威脅
-- [勒索軟體防護](https://www.nics.nat.gov.tw/cybersecurity_resources/promotional_resources/Protection_Guide/Ransomware_Protection/)
+- 勒索軟體防護
+  - [TWCERT/CC 勒索軟體防護專區](https://www.twcert.org.tw/tw/lp-14-1-xCat-02.html) 
+  - [勒索軟體防護](https://www.nics.nat.gov.tw/cybersecurity_resources/promotional_resources/Protection_Guide/Ransomware_Protection/)
