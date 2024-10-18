@@ -22,6 +22,8 @@
 -rw-r--r--  1 root root  3391 May  8  2019 .bashrc
 drwx------  2 root root  4096 Jul 22  2019 .BurpSuite
 ```
+![passwd.jpg](passwd.jpg)
+
 - 第一個位元
   - _ - no special permissions set
   - d ==> directory(代表是一個目錄)
@@ -41,4 +43,4 @@ man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
 lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 ```
 
-![passwd.jpg](passwd.jpg)
+
