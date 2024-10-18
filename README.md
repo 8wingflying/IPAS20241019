@@ -58,13 +58,15 @@
       - XSS 攻擊手法分析
   - 2.3.程式與開發安全
     - 2.3.1.程式漏洞分析: Buffer overflow
-      - 常見的程式漏洞(不含網站類型漏洞): 大部分指c/c++程式
+      - 常見的程式漏洞(不含Ꙭ 網站應用程式 Ꙭ漏洞): 大部分指c/c++程式
         - (1)Buffer overflow
         - (2)format string vuln.
         - (3)integer overflow
         - (4)heap overflow
+      - 逆向工程(Reverse engineering)
     - 2.3.2.安全的開發方法論SDLC vs SSDLC
-      - 安全程式開發secure coding 
+      - 安全程式開發secure coding
+      - SSDLC 
 - 單元三:資安維運技術
   - 3-1.惡意程式防護與弱點管理
     - 3-1-1.惡意程式(Malware)
