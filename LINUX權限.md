@@ -1,4 +1,5 @@
 # LINUX檔案權限
+- 參考資料 [Privilege escalation on Linux: When it’s good and when it’s a disaster (with examples)](https://delinea.com/blog/linux-privilege-escalation)
 - Linux系統的所有檔案都有一個權限表示其允許或拒絕其他人查看、修改或執行它們
 - 超級使用者“root"可以存取系統中任何檔案
 - 每個檔案都有一個存取限制，使用者限制和擁有者/組屬性與之關聯。
@@ -14,6 +15,7 @@
 - 權限運算:
   - 5 == 4+1 ==>有 `讀`與`執行`的權限
   - 7 == 4+2+1 ==>有 `讀``寫`與`執行`的權限
+
 # 範例: ls -al
 ```
 -rw-r--r--  1 root root  1255 Mar 16  2024 .bash_history
