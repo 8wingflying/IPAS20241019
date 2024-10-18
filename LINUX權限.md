@@ -30,6 +30,10 @@ drwx------  2 root root  4096 Jul 22  2019 .BurpSuite
   - l ==> file has symbolic links
   - s ==> setuid or setgid is set
   - t ==> sticky bit set
+# 改變權限的指令[chmod](https://zh.wikipedia.org/zh-tw/Chmod) ==> `ch`ange `mod`e
+- 只有檔案所有者(owner)和超級使用者(root)可以修改檔案或目錄的權限。
+- 可以使用絕對模式（八進制數位模式），符號模式指定檔案的權限。
+
 
 # 範例2: cat /etc/passwd
 ```
