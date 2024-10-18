@@ -69,18 +69,29 @@
       - SSDLC 
 - 單元三:資安維運技術
   - 3-1.惡意程式防護與弱點管理
-    - 3-1-1.惡意程式(Malware)
-    - 3-1-2.惡意程式防護
-    - 3-1-3.弱點(Vulnerabilities) == > 弱點管理
+    - 惡意程式(Malware)
+    - 惡意程式防護
+    - 惡意程式分析(Malware Analysis) : 靜態 vs 動態
+    - 弱點(Vulnerabilities):  CVE CVSS
+    - 弱點管理
   - 3-2.資料安全及備份管理
     - 3-2-1.資料安全(Data Security)
     - 3-2-2.資料備份及備份管理
   - 3-3.日誌管理
+    - 日誌
+    - 各種日誌: WINDOWS LINUX IIS APACHE .....
+    - 日誌分析
+      - syslog
+      - 資料清理Data Clearing
+      - 正規化
+      - 時脈同步
+    - 日誌管理   
 - 單元四:新興科技安全
   - 4-1.雲端安全概論
     - 4-1-1.雲端基本觀念
   - 4-2.行動裝置安全概論
   - 4-3.物聯網安全概論
+
 # 國家資通安全研究院
 - [共通規範](https://www.nics.nat.gov.tw/cybersecurity_resources/reference_guide/Common_Standards/)
 - [每季出版之「資通安全技術報告」](https://www.nics.nat.gov.tw/cybersecurity_resources/publications/Technical_Reports/)
