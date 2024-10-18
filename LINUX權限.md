@@ -32,8 +32,13 @@ drwx------  2 root root  4096 Jul 22  2019 .BurpSuite
   - t ==> sticky bit set
 # 改變權限的指令[chmod](https://zh.wikipedia.org/zh-tw/Chmod) ==> `ch`ange `mod`e
 - 只有檔案所有者(owner)和超級使用者(root)可以修改檔案或目錄的權限。
-- 可以使用絕對模式（八進制數位模式），符號模式指定檔案的權限。
-
+- 可以使用絕對模式（八進制數位模式:0,1,2,3,4,5,6,7），符號模式指定檔案的權限。
+  - chmod 664 myfile
+  - chmod u+x filename
+    - u ==>user ==> 使用者本人
+    - + ==> 增加權限
+    - x ==> 檔案執行權限 
+  - 對mydir目錄的所有者u和關聯組g增加讀r和寫w權限 ==> chmod ug+rw mydir
 
 # 範例2: cat /etc/passwd
 ```
