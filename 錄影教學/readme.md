@@ -1,4 +1,9 @@
-## 錄影教學:管理篇
+## 錄影教學:資訊安全管理概論
+- 單元一: 資訊安全管理概念
+  - [1-1.資訊安全目標:CIA](https://youtu.be/bwHewe6allU)
+  - [1-2.資訊安全管理系統 ISMS == > ISO 27001]()
+- 單元二:資產與風險管理
+  - [2-1.資產分類分級與盤點]()
 - FIDO身分認證
 - 零信任架構 | ZTA | Zero Trust Architecture
   - [國家資通安全研究院|](https://www.nics.nat.gov.tw/core_business/cybersecurity_defense/ZTA/) 
