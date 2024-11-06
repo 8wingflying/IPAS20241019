@@ -33,6 +33,7 @@
   - 我國
     - [我國物聯網資安產業標準與檢測認驗證推動策略與發展](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvMC8xMzExMS8wN2FmNGUxYi1hNmY3LTQzODUtYmE4NC1hZTg2YjYxNWRmNzIucGRm&n=5pS%2F562W5paw55%2BlMDMt5oiR5ZyL54mp6IGv57ay6LOH5a6J55Si5qWt5qiZ5rqW6IiH5qqi5ris6KqN6amX6K2J5o6o5YuV562W55Wl6IiH55m85bGVLnBkZg%3D%3D&icon=..pdf)
     - [物聯網資安認驗證制度V3.0](https://www.taics.org.tw/files/FileDownload/%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E8%AA%8D%E9%A9%97%E8%AD%89%E5%88%B6%E5%BA%A6%20V3.0_1.pdf)
+    - [消費性物聯網產品資安測試規範](https://www.taics.org.tw/files/FileDownload/20211125_TAICS%20TS-0046%20v1.0_%E6%B6%88%E8%B2%BB%E6%80%A7%E7%89%A9%E8%81%AF%E7%B6%B2%E7%94%A2%E5%93%81%E8%B3%87%E5%AE%89%E6%B8%AC%E8%A9%A6%E8%A6%8F%E7%AF%84_1.pdf)
     - [IoT-3001-1 V1.0 物聯網設備共通資安指引](https://s3.ap-northeast-1.amazonaws.com/www.mas.org.tw/public/files/14366/original/18826998657ac92eba9ed.pdf)
 - 延伸閱讀
   - [物聯網時代的15堂資安基礎必修課](https://www.tenlong.com.tw/products/9786263241756) 
