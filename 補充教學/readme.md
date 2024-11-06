@@ -6,6 +6,7 @@
 # 4-1.雲端安全概論
 - 雲端基本觀念:543
 - 雲端資安威脅
+  - [Unit 42 雲端威脅報告 第 7 冊](https://start.paloaltonetworks.tw/unit-42-cloud-threat-report-volume-7?utm_source=google-theegg-japac-prisma_cloud-scpc-sccp&utm_medium=paid_search&utm_campaign=google-prisma_cloud-cnapp-japac-tw-lead_gen-zh-&utm_content={sfdcid}&cq_plac=&cq_net=g&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--2vnv8HqjamORR7m3MYIVe2eluxi07FHWzy44DyE4rPWbuD4Oo-xzhoC4KIQAvD_BwE) 
 - 雲端安全防護
 # 4-2.行動裝置安全概論
 - 行動裝置與行動應用程式
@@ -32,7 +33,8 @@
   - 我國
     - [我國物聯網資安產業標準與檢測認驗證推動策略與發展](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvMC8xMzExMS8wN2FmNGUxYi1hNmY3LTQzODUtYmE4NC1hZTg2YjYxNWRmNzIucGRm&n=5pS%2F562W5paw55%2BlMDMt5oiR5ZyL54mp6IGv57ay6LOH5a6J55Si5qWt5qiZ5rqW6IiH5qqi5ris6KqN6amX6K2J5o6o5YuV562W55Wl6IiH55m85bGVLnBkZg%3D%3D&icon=..pdf)
     - [物聯網資安認驗證制度V3.0](https://www.taics.org.tw/files/FileDownload/%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E8%AA%8D%E9%A9%97%E8%AD%89%E5%88%B6%E5%BA%A6%20V3.0_1.pdf)
-
+- 延伸閱讀
+  - [物聯網時代的15堂資安基礎必修課](https://www.tenlong.com.tw/products/9786263241756) 
 ## 工控物聯網| IIOT | Industrial IoT == > 中階IPAS才會考
 - 普渡企業參考架構模型 | Purdue Enterprise Reference Architecture, PERA |普渡(Purdue)模型
 - 美國通用電氣( GE)公司於2012年首次提出“工業互聯網”的概念。
@@ -43,4 +45,7 @@
   - 日本工業價值鏈參考架構 
 - 我國規範
   - [經濟部|工控物聯網共通性資安指南](https://www.acw.org.tw/UpFiles/01-%E5%B7%A5%E6%8E%A7%E7%89%A9%E8%81%AF%E7%B6%B2%E5%85%B1%E9%80%9A%E6%80%A7%E8%B3%87%E5%AE%89%E6%8C%87%E5%8D%97.pdf)
-  - [經濟部|工控設備業工控物聯網資安實務指南](https://www.acw.org.tw/UpFiles/02-%E5%B7%A5%E6%8E%A7%E8%A8%AD%E5%82%99%E6%A5%AD%E5%B7%A5%E6%8E%A7%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E5%AF%A6%E5%8B%99%E6%8C%87%E5%8D%97.pdf) 
+  - [經濟部|工控設備業工控物聯網資安實務指南](https://www.acw.org.tw/UpFiles/02-%E5%B7%A5%E6%8E%A7%E8%A8%AD%E5%82%99%E6%A5%AD%E5%B7%A5%E6%8E%A7%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E5%AF%A6%E5%8B%99%E6%8C%87%E5%8D%97.pdf)
+  - [網通產業工控物聯網資安實務指南](https://www.acw.org.tw/UpFiles/05-%E7%B6%B2%E9%80%9A%E7%94%A2%E6%A5%AD%E5%B7%A5%E6%8E%A7%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E5%AF%A6%E5%8B%99%E6%8C%87%E5%8D%97.pdf)
+  - [光電產業工控物聯網資安實務指南](https://www.acw.org.tw/UpFiles/03-%E5%85%89%E9%9B%BB%E7%94%A2%E6%A5%AD%E5%B7%A5%E6%8E%A7%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E5%AF%A6%E5%8B%99%E6%8C%87%E5%8D%97.pdf)
+  - [2023 OT 與網路資安現況調查報告](https://global.fortinet.com/apac-lp-tw-ap-2023stateofotandcybersecurity?utm_source=Paid-Search&utm_medium=Google&utm_campaign=OT-APAC-TW&utm_content=RR-2023_StateofOT-G&utm_term=iot%20%E5%AE%89%E5%85%A8&lsci=701Hr000001leR3IAI&UID=ftnt-4355-017452&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--9vR-TS-HGWKSCV7Hgfv7karuaPaBPaRqXmf8VlwBn9Y1m6kwAZ-wxoCEn4QAvD_BwE) 
