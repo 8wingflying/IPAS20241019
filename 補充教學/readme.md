@@ -14,6 +14,15 @@
 - 物聯網資安防護
 - 物聯網資安規範  
   - ISO國際標準
+    - ISO/IEC 27400:2022(en) Cybersecurity — IoT security and privacy — Guidelines
+      - https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27400:ed-1:v1:en
+      - [物聯網資通安全標準ISO-27400將底定](https://www.cc.ntu.edu.tw/chinese/epaper/0059/i124-P68-71-IoT%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E6%A8%99%E6%BA%96ISO-27400%E5%B0%87%E5%BA%95%E5%AE%9A.pdf)
+    - ISO/IEC 27402:2023 Cybersecurity — IoT security and privacy — Device baseline requirements
+      - https://www.iso.org/obp/ui#iso:std:iso-iec:27402:dis:ed-1:v1:en
+    - ISO/IEC 27403:2024 — Cybersecurity — IoT security and privacy — Guidelines for IoT-domotics (first edition)
+      - https://www.iso27001security.com/html/27403.html
+    - ISO/IEC 27404 — Cybersecurity — IoT security and privacy — Cybersecurity labelling framework for consumer IoT [DRAFT]
+      - https://www.iso27001security.com/html/27404.html 
   - 我國
     - [我國物聯網資安產業標準與檢測認驗證推動策略與發展](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvMC8xMzExMS8wN2FmNGUxYi1hNmY3LTQzODUtYmE4NC1hZTg2YjYxNWRmNzIucGRm&n=5pS%2F562W5paw55%2BlMDMt5oiR5ZyL54mp6IGv57ay6LOH5a6J55Si5qWt5qiZ5rqW6IiH5qqi5ris6KqN6amX6K2J5o6o5YuV562W55Wl6IiH55m85bGVLnBkZg%3D%3D&icon=..pdf)
     - [物聯網資安認驗證制度V3.0](https://www.taics.org.tw/files/FileDownload/%E7%89%A9%E8%81%AF%E7%B6%B2%E8%B3%87%E5%AE%89%E8%AA%8D%E9%A9%97%E8%AD%89%E5%88%B6%E5%BA%A6%20V3.0_1.pdf)
