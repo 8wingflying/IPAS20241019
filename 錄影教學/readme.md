@@ -4,7 +4,9 @@
   - [1-2.資訊安全管理系統 ISMS == > ISO 27001]()
   - [1-3.法規遵循](https://youtu.be/jVmawr0oa9s)
   - [個資保護法](https://youtu.be/VdyYUolU4sw)
-  - [智慧財產權]()
+  - [智慧財產權](https://youtu.be/4yHJv_mkqBg)
+  - [密碼學](https://youtu.be/_goeHFFQXLg)
+  - [密碼學應用](https://youtu.be/MIaSAjvdHnk)
 - 單元二:資產與風險管理
   - [2-1.資產分類分級與盤點]()
 - FIDO身分認證
