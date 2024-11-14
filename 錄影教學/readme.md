@@ -3,7 +3,7 @@
   - [1-1.資訊安全目標:CIA](https://youtu.be/bwHewe6allU)
   - [1-2.資訊安全管理系統 ISMS == > ISO 27001]()
   - [1-3.法規遵循](https://youtu.be/jVmawr0oa9s)
-  - [個資保護法]()
+  - [個資保護法](https://youtu.be/VdyYUolU4sw)
   - [智慧財產權]()
 - 單元二:資產與風險管理
   - [2-1.資產分類分級與盤點]()
