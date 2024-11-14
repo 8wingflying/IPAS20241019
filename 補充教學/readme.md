@@ -5,15 +5,33 @@
 
 # 4-1.雲端安全概論
 - 雲端基本觀念:543
+  - ISO/IEC 22123-1:2023 Information technology — Cloud computing Part 1: Vocabulary[第二版]
+    - [第一版] ISO/IEC 17788:2014
+  - ISO/IEC 22123-2:2023 Information technology — Cloud computing Part 2: Concepts[第一版]
+  - ISO/IEC 22123-3:2023 Information technology — Cloud computing Part 3: Reference architecture[第一版]
 - 雲端資安威脅
   - [Unit 42 雲端威脅報告 第 7 冊](https://start.paloaltonetworks.tw/unit-42-cloud-threat-report-volume-7?utm_source=google-theegg-japac-prisma_cloud-scpc-sccp&utm_medium=paid_search&utm_campaign=google-prisma_cloud-cnapp-japac-tw-lead_gen-zh-&utm_content={sfdcid}&cq_plac=&cq_net=g&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--2vnv8HqjamORR7m3MYIVe2eluxi07FHWzy44DyE4rPWbuD4Oo-xzhoC4KIQAvD_BwE) 
 - 雲端安全防護
 # 4-2.行動裝置安全概論
 - 行動裝置與行動應用程式
 - 行動資安威脅
+  - 美國國家網路安全卓越中心(National Cybersecurity Center of Excellence| NCCoE )於2016年發布`行動威脅目錄|Mobile Threat Catalogue|MTC`
   - 行動應用程式資安威脅  
-- 物聯網資安防護
-- 物聯網資安規範  
+- 行動裝置資安防護 ==> 共通規範|行動裝置資安防護資安參考指引
+  - NIST SP 800-124 Rev. 2 Guidelines for Managing the Security of Mobile Devices in the Enterpris
+  - NIST SP 800-163 r1:2019
+    - r1第一版發布於2019年，全稱為「審查行動應用程式安全(Vetting the Security of Mobile Applications)」。主要目的在於定義應用審查流程，並提供四項工作指導原則
+    - 四項工作指導原則：
+      - 規劃與實施行動應用程式審查流程
+      - 制定行動應用程式之安全要求
+      - 確定用於測試行動應用程式之適當工具
+      - 確定行動應用程式是否可以在組織之行動裝置上部署。
+  - NIST SP 1800-21:2020
+    - 第一版發布於2020年，全稱為「行動裝置安全：組織擁有授予個人使用(Mobile Device Security：Corporate-Owned Personally-Enabled(COPE))」。
+    - 主要目的說明對組織擁有授予個人使用(以下簡稱COPE)行動裝置實施安全控管，該類行動裝置歸組織所有，並由組織配發予所屬人員使用，組織與人員皆可於行動裝置安裝行動應用程式。
+  - NIST SP 1800-22:2023
+    - 第一版發布於2023年，全稱為「行動裝置安全：自帶裝置(Mobile Device Security：Bring Your Own Device(BYOD))」。
+    - 主要目的說明自帶裝置(以下簡稱BYOD)存取組織資源時，保護資安與個人隱私資訊之資安控制措施。
 # 4-3.物聯網安全概論
 - 物聯網
 - 物聯網資安威脅
