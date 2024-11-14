@@ -7,6 +7,9 @@
   - [智慧財產權](https://youtu.be/4yHJv_mkqBg)
   - [密碼學](https://youtu.be/_goeHFFQXLg)
   - [密碼學應用](https://youtu.be/MIaSAjvdHnk)
+  - [4_1_雲端安全](https://youtu.be/294mH9kNAuk)
+  - [4_2.行動裝置安全](https://youtu.be/_sdXIay3W3w)
+  - [4_3_IOTSecurity](https://youtu.be/922B9ey8weo)
 - 單元二:資產與風險管理
   - [2-1.資產分類分級與盤點]()
 - FIDO身分認證
