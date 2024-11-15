@@ -45,4 +45,10 @@
 - [What is Database Security: Top 13 Best Practices](https://blog.netwrix.com/what-is-database-security)
 
 ### MYSQL
-- https://nostarch.com/mysql-crash-course
+- [MySQL 資料庫開發的樂趣 | Rick Silva 著 黃詩涵 譯](https://www.tenlong.com.tw/products/9786263247192?list_name=srh)
+  - 官方網站[MySQL Crash Course: A Hands-on Introduction to Database Development]()
+  - [github](https://nostarch.com/mysql-crash-course)
+  - 資料庫範例:
+    - 天氣資料庫
+    - 選舉資料庫 ==>利用觸發器防止發生錯誤
+    - 薪資資料庫 ==>使用檢視表來保護薪資資料庫內的敏感資料 
