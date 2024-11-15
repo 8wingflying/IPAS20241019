@@ -28,6 +28,7 @@
     - [ObjectDB - JPA Object Database for Java]()
       - https://en.wikipedia.org/wiki/ObjectDB
 - SQL關聯式 [資料庫(relational database model)](https://en.wikipedia.org/wiki/Relational_model)
+  - https://zh.wikipedia.org/wiki/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93
   - 範例
     - Oracle 資料庫
     - MSSQL(Microsoft SQL Server) 微軟推出的資料庫
