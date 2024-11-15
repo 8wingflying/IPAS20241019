@@ -12,6 +12,17 @@
 - 雲端資安威脅
   - [Unit 42 雲端威脅報告 第 7 冊](https://start.paloaltonetworks.tw/unit-42-cloud-threat-report-volume-7?utm_source=google-theegg-japac-prisma_cloud-scpc-sccp&utm_medium=paid_search&utm_campaign=google-prisma_cloud-cnapp-japac-tw-lead_gen-zh-&utm_content={sfdcid}&cq_plac=&cq_net=g&gad_source=1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--2vnv8HqjamORR7m3MYIVe2eluxi07FHWzy44DyE4rPWbuD4Oo-xzhoC4KIQAvD_BwE) 
 - 雲端安全防護
+  - [Security Guidance for Critical Areas of Focus in Cloud Computing v5](https://cloudsecurityalliance.org/artifacts/security-guidance-v5)
+  - Cloud Controls Matrix (CCM) 
+- 相關證照
+  - Certificate of Cloud Security Knowledge (CCSK)
+  - Certified Cloud Security Professional| CCSP
+    - Domain 1：Architectural Concepts & Design Requirements架構觀念與設計要求
+    - Domain 2：Cloud Data Security 雲端資料安全性
+    - Domain 3：Cloud Platform & Infrastructure Security 雲端平台與基礎設施安全性
+    - Domain 4：Cloud Application Security 雲端應用程式安全性
+    - Domain 5：Operations 營運
+    - Domain 6：Legal & Compliance 法律與遵循性  
 # 4-2.行動裝置安全概論
 - 行動裝置與行動應用程式
 - 行動資安威脅
