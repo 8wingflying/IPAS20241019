@@ -33,7 +33,12 @@
     - Oracle 資料庫
     - MSSQL(Microsoft SQL Server) 微軟推出的資料庫
     - MYSQL/MariaDB , Postgresql 資料庫 
-- [NoSQL 資料庫](https://zh.wikipedia.org/zh-tw/NoSQL): Redis, MongoDB, Neo4j圖形資料庫 
+- [NoSQL 資料庫](https://zh.wikipedia.org/zh-tw/NoSQL):
+  - Redis
+  - MongoDB
+    - https://www.mongodb.com/zh-cn/docs/manual/
+    - [自管理部署的安全檢查清單](https://www.mongodb.com/zh-cn/docs/manual/administration/security-checklist/) 
+  - Neo4j圖形資料庫 
 ## 資料庫的安全威脅
 - 參考資料
   - [Threats to Database Security]()
