@@ -45,6 +45,7 @@
 ## 資料庫的安全防護
 - 參考資料
   - [What Is Database Security?](https://www.comptia.org/content/articles/what-is-database-security)
+  - [Database Security](https://www.imperva.com/learn/data-security/database-security/)
   - [OWASP Database Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html)
   - [OWASP SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 ## 微軟MSSQL 資料庫
