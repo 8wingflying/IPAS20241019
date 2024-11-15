@@ -15,11 +15,10 @@
   - 優點: 避免了資料的重複性。
   - 缺點: 關聯性比較複雜, 尤其是當資料庫的內容愈來愈多的時候, 關聯性的維護會變得非常麻煩。
   - 範例:Computer Associates 公司曾經推出的 IDMS(Integrated Database Management System)
-- OODB物件導向資料庫 [物件資料庫- 維基百科]()
+- OODB物件導向資料庫 [物件資料庫- 維基百科](https://zh.wikipedia.org/zh-tw/%E5%AF%B9%E8%B1%A1%E6%95%B0%E6%8D%AE%E5%BA%93)
   - 物件資料庫是一種以物件(object)形式表示信息的資料庫。
   - 物件資料庫的資料庫管理系統被稱為ODBMS或OODBMS。
   - [ODBMS.ORG](https://www.odbms.org/)
-    -  
   - 範例
     - Computer Associates 公司的 Jasmine
     - Eastman Kodak 公司的 Alltalk
@@ -33,7 +32,7 @@
     - Oracle 資料庫
     - MSSQL(Microsoft SQL Server) 微軟推出的資料庫
     - MYSQL/MariaDB , Postgresql 資料庫 
-- NoSQL 資料庫: Redis, MongoDB, Neo4j圖形資料庫 
+- [NoSQL 資料庫](https://zh.wikipedia.org/zh-tw/NoSQL): Redis, MongoDB, Neo4j圖形資料庫 
 ## 資料庫的安全威脅
 ## 資料庫的安全防護
 ## 微軟MSSQL 資料庫
