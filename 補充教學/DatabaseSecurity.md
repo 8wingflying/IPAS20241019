@@ -19,25 +19,30 @@
   - 物件資料庫是一種以物件(object)形式表示信息的資料庫。
   - 物件資料庫的資料庫管理系統被稱為ODBMS或OODBMS。
   - [ODBMS.ORG](https://www.odbms.org/)
-    - https://en.wikipedia.org/wiki/ObjectDB
+    -  
   - 範例
     - Computer Associates 公司的 Jasmine
     - Eastman Kodak 公司的 Alltalk
     - Servio 公司的 GemStone
-    - O2 Technology 的 O2 
-此外也有關聯式資料庫為主, 再於其上架設物件導向概念的資料庫, 如PostgreSQL 。
+    - O2 Technology 的 O2
+    - 此外也有關聯式資料庫為主, 再於其上架設物件導向概念的資料庫, 如PostgreSQL 。
     - [ObjectDB - JPA Object Database for Java]()
-
-- SQL [資料庫(relational database model)](https://en.wikipedia.org/wiki/Relational_model)
-  - Oracle 資料庫
-  - MSSQL(Microsoft SQL Server) 微軟推出的資料庫
-  - MYSQL/MariaDB , Postgresql 資料庫 
+      - https://en.wikipedia.org/wiki/ObjectDB
+- SQL關聯式 [資料庫(relational database model)](https://en.wikipedia.org/wiki/Relational_model)
+  - 範例
+    - Oracle 資料庫
+    - MSSQL(Microsoft SQL Server) 微軟推出的資料庫
+    - MYSQL/MariaDB , Postgresql 資料庫 
 - NoSQL 資料庫: Redis, MongoDB, Neo4j圖形資料庫 
 ## 資料庫的安全威脅
 ## 資料庫的安全防護
 ## 微軟MSSQL 資料庫
-- [保護 SQL Server 的安全]()
+- [保護 SQL Server 的安全](https://learn.microsoft.com/zh-tw/sql/relational-databases/security/securing-sql-server?view=sql-server-ver16)
 - [SQL Server 安全性最佳做法](https://learn.microsoft.com/zh-tw/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16)
+- [SQL Server 安全總體架構簡介](https://www.mentortrust.com/home/ArticleSQLSecurityOverall#:~:text=%E8%8B%A5%E6%80%95%E7%B6%B2%E8%B7%AF%E5%81%B7%E7%AA%BA,%E6%94%AF%E6%8F%B4TLS%201.3%E7%89%88%E5%8D%94%E5%AE%9A%E3%80%82)
 
 # 參考資料
 - [What is Database Security: Top 13 Best Practices](https://blog.netwrix.com/what-is-database-security)
+
+### MYSQL
+- https://nostarch.com/mysql-crash-course
