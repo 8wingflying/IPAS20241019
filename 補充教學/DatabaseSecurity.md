@@ -9,7 +9,7 @@
 - [階層資料庫Hierarchical database model](https://zh.wikipedia.org/zh-tw/%E5%B1%82%E6%AC%A1%E6%A8%A1%E5%9E%8B)
   - 用樹形結構描述實體及其之間關係的數據模型
   - IBM於1968年推出的IMS（Information Management System）資料庫管理系統是第一個階層式資料庫模型管理系統，也是最典型的一個。 
-- [網路資料庫(Network Database)]()
+- [網路資料庫(Network Database)](https://en.wikipedia.org/wiki/Network_model)
   - 網狀式資料庫是將每筆記錄當成一個節點。
   - 節點與節點之間可以建立關聯 (也就是建立記錄與記錄間的關聯), 形成一個複雜的網狀架構。
   - 優點: 避免了資料的重複性。
