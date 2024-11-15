@@ -40,6 +40,7 @@
 - [保護 SQL Server 的安全](https://learn.microsoft.com/zh-tw/sql/relational-databases/security/securing-sql-server?view=sql-server-ver16)
 - [SQL Server 安全性最佳做法](https://learn.microsoft.com/zh-tw/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16)
 - [SQL Server 安全總體架構簡介](https://www.mentortrust.com/home/ArticleSQLSecurityOverall#:~:text=%E8%8B%A5%E6%80%95%E7%B6%B2%E8%B7%AF%E5%81%B7%E7%AA%BA,%E6%94%AF%E6%8F%B4TLS%201.3%E7%89%88%E5%8D%94%E5%AE%9A%E3%80%82)
+- https://www.microsoft.com/zh-tw/evalcenter/download-sql-server-2022
 
 # 參考資料
 - [What is Database Security: Top 13 Best Practices](https://blog.netwrix.com/what-is-database-security)
