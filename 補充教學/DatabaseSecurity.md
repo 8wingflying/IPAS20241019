@@ -35,7 +35,13 @@
     - MYSQL/MariaDB , Postgresql 資料庫 
 - [NoSQL 資料庫](https://zh.wikipedia.org/zh-tw/NoSQL): Redis, MongoDB, Neo4j圖形資料庫 
 ## 資料庫的安全威脅
+- 參考資料
+  - [Threats to Database Security]()
 ## 資料庫的安全防護
+- 參考資料
+  - [What Is Database Security?](https://www.comptia.org/content/articles/what-is-database-security)
+  - [OWASP Database Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html)
+  - [OWASP SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 ## 微軟MSSQL 資料庫
 - [保護 SQL Server 的安全](https://learn.microsoft.com/zh-tw/sql/relational-databases/security/securing-sql-server?view=sql-server-ver16)
 - [SQL Server 安全性最佳做法](https://learn.microsoft.com/zh-tw/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16)
