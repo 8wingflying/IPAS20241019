@@ -11,10 +11,28 @@
 # 零信任架構|Zero Trust Architecture|ZTA
 - 定義
   - 零信任安全模型|Zero trust security model|零信任架構|零信任網路架構|ZTA |ZTNA|無邊界安全perimeterless security
+  - 傳統安全模式(傳統信任模型) vs 零信任架構
+    - 傳統的信任模型是「內外有別」 ==> 內網 | 外網 ,網路邊界, 縱深防禦(depth in defense)
+      - 對於內部和外部的信任程度並不一樣，這種方式在過去也主導了網路安全的策略。
+        - 內網 ==> 彼此信任
+        - 外部 ==> 不信任
+      - 隨著內部網路和外部攻擊者的界限逐漸模糊，傳統的信任模型已經無法有效應對日益複雜的網路威脅。
+    - 零信任架構
+      - 每一個數位行為──無論是來自內部還是外部──都被視為潛在的風險
+      - 這意味著所有的流量、設備和用戶，都必須被持續監控和驗證。 
 ## 歷史發展:
 - 1994年4月，Stephen Paul Marsh在其博士論文中提出了「零信任zero trust」一詞
 - 2003年 Jericho Forum強調了為組織IT系統定義邊界的挑戰性，討論了當時稱為「去邊界化」的趨勢。
-- 2009年 Google實施了BeyondCorp的零信任架構
+- 2009年 Google實施了BeyondCorp的零信任架構 [資料來源](https://www.webcomm.com.tw/blog/zero-trust-security-model/?srsltid=AfmBOoox4cy_h3xgnnau2NruZ59pCeiAXLmPWm5Piw34A_mq0voJXUp3)
+  - 過去 Google 採用 VPN 的方式讓員工遠端連線，充滿了不確定性。
+  - 為了解決這個困擾，從了解員工使用裝置開始，Google 逐漸轉化為零信任安全架構 BeyondCorp
+  - 其構成採取了無密碼驗證的概念，相關的原則如下：
+    - 服務存取權非由連線的網路決定
+    - 根據使用者及其裝置的相關要素授予服務存取權
+    - 不論存取任何服務，都必須經過驗證、授權及加密程序
+  - BeyondCorp 的出現讓 Google 員工能夠在任何地方快速工作，在提高安全性的同時提高生產力，
+  - 一開始只在 Google 內部使用，但隨著零信任的需求高漲也開始作為 Google 的服務推行到全世界供人使用
+  - BeyondCorp 的零信任安全架構，所有對企業資源的訪問都是根據設備狀態和使用者憑證進行完全認證、授權和加密的。 
 - 2010年 Forrester Research的分析師John Kindervag使用術語「零信任模型」表示更嚴格的公司內部網路安全計劃和存取控制。
   - 4大核心
     - 1.使用整合的分割閘道器（Segmentation gateway）為網路核心
@@ -25,6 +43,7 @@
 - 2019年，英國國家網路安全中心NCSC建議網路架構師考慮對新增IT部署採用零信任措施，尤其是計劃大量使用雲服務時
 
 ## NIST 零信任架構|Zero Trust Architecture|ZTA
+- 參考資料:
   - NIST SP 800-207 Zero Trust Architecture
   - NIST CSWP 20:Planning for a Zero Trust Architecture:A Planning Guide for Federal Administrators(2022)
 - Tenets of Zero Trust | 零信任基本原則
