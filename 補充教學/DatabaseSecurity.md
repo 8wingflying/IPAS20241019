@@ -57,6 +57,10 @@
 # 參考資料
 - [What is Database Security: Top 13 Best Practices](https://blog.netwrix.com/what-is-database-security)
 
+
+### 資料庫平台
+- [Online SQL Editor](https://www.programiz.com/sql/online-compiler/)
+- [sqliteonline](https://sqliteonline.com/)
 ### MYSQL  MySQL 9.0 was released on July 1, 2024
 - [MySQL 資料庫開發的樂趣 | Rick Silva 著 黃詩涵 譯](https://www.tenlong.com.tw/products/9786263247192?list_name=srh)
   - 官方網站[MySQL Crash Course: A Hands-on Introduction to Database Development]()
