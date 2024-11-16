@@ -90,11 +90,12 @@
   - 政策引擎 Policy Engine (PE)– PE 負責根據政策和 CDM 系統與威脅情報服務的輸入來判斷是否該授予存取權限。
   - 政策管理員 Policy Administrator (PA)– PA 負責根據 PE 的決策來建立或關閉通訊。
   - 政策落實點 Policy Enforcement Point (PEP)– PEP 負責准許、監控和終止連線
-- 信賴評估演算法 | The trust algorithm (TA)
+- 信任推斷| 信賴評估演算法 | The trust algorithm (TA)
   - the process used by the policy engine to ultimately grant or deny access to a resource
   - 類型:
-    - 第一種: Criteria- versus score-based
-    - 第二種: Singular versus contextual
+    - 第一種: Criteria(情境)- versus score(分數)-based
+    - 第二種: Singular(單一) versus contextual(上下文本)
+
 ## ZTA 模式
 - 完整的零信任方案應包含3個要素
   - 參考資料: NIST NIST SP 800-207| 3.1 Variations of Zero Trust Architecture Approaches
@@ -109,11 +110,16 @@
   - 參考 NIST SP 800-207 文件的 ZTA 部署模型，我國政府機關所採取的模型為資源門戶部署（Resource Portal-Based Deployment）方式
   - 對於任何對資通系統之存取皆須透過存取閘道，並將`身分鑑別`、`設備鑑別`與`信任推斷`列為三大核心機制。
     - 身分鑑別 ==> 採用多因子身分鑑別（例如FIDO無密碼驗證）與鑑別聲明；
+      - 採無密碼雙因子，例如FIDO2鑑別使用者的身分
       - 依照NIST SP800-63-3，該標準建立的身分鑑別機制，將身分鑑的嚴謹度定義為身分保證等級（IAL）、鑑別保證等級（AAL）、聯邦保護等級（FAL），每個身分鑑別等級的嚴謹程度又分為3個1、2、3等級（數字愈高，等級愈高）
       - 我國採用基準概念，政府公部門推動零信任架構，至少需滿足IAL2、AAL3及FAL2
     - 設備鑑別 ==>  則是鑑別使用設備、設備健康管理；
+      - 採用公開金鑰技術作為設備鑑別，由設備上的TPM安全晶片或代理程式產生金鑰憑證，完成設備註冊及鑑別；
+      - 同時也持續監控設備的健康狀態，依據設備健康狀態計算對該設備的健康信任等級。
+      - 設備健康狀態包含作業系統更新、防毒更新、應用軟體更新、組態合規等，根據不同的狀態評分，計算使用設備的健康信任等級。 
     - 信任推斷 ==> 則是綜合使用者的身分、設備及行為各方面，作為信任推斷的依據。
-
+      - 基於信任推斷來決定存取權限，信任推斷機制可能制定規則、分數，或是混合規則與分數。
+      - 以分數為例，依使用情境計算每次存取的信任分數，綜合參考身分鑑別、設備鑑別、設備健康、IP位址、登入時間，還有外部情資如CVSS評分、EPSS漏洞利用評分等等，根據上述資料計算信任等級，再依權重、信任等級計算出信任分數，依不同的信任分數允許或是拒絕存取。 
 
 ## 部屬模式 Multiple ZTA deployment models
   - 參考資料: NIST NIST SP 800-207| 3.2 Deployed Variations of the Abstract Architecture
