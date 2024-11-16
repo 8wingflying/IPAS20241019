@@ -94,7 +94,7 @@
     - 3.1.2 ZTA Using Micro-Segmentation(微分段)
       - 在零信任架構下，對於特定資產、資料或應用，要設置更精細化的安全邊界，以確保更嚴格的存取控制。 
     - 3.1.3 ZTA Using Network Infrastructure and Software Defined Perimeters (網路基礎架構與軟體定義邊界)
-- 我國政府機關所採取的模型  
+- 我國政府機關所採取的模型  [資料來源](https://moda.gov.tw/press/multimedia/blog/9773)
   - 參考 NIST SP 800-207 文件的 ZTA 部署模型，我國政府機關所採取的模型為資源門戶部署（Resource Portal-Based Deployment）方式
   - 對於任何對資通系統之存取皆須透過存取閘道，並將`身分鑑別`、`設備鑑別`與`信任推斷`列為三大核心機制。
 ## 部屬模式 Multiple ZTA deployment models
