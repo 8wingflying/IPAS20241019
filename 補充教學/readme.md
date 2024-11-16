@@ -1,4 +1,5 @@
 # 管理篇
+- [歐盟GDPR](GDPR.md)
 - [FIDO](FIDO.md)
 - [零信任架構|Zero Trust Architecture|ZTA](ZTA.md)
 
