@@ -88,11 +88,15 @@
     - 第一種: Criteria- versus score-based
     - 第二種: Singular versus contextual
 ## ZTA 模式
-- 參考資料: NIST NIST SP 800-207| 3.1 Variations of Zero Trust Architecture Approaches
+- 完整的零信任方案應包含3個要素
+  - 參考資料: NIST NIST SP 800-207| 3.1 Variations of Zero Trust Architecture Approaches
     - 3.1.1 ZTA Using Enhanced Identity Governance(增強的身分治理)
     - 3.1.2 ZTA Using Micro-Segmentation(微分段)
       - 在零信任架構下，對於特定資產、資料或應用，要設置更精細化的安全邊界，以確保更嚴格的存取控制。 
     - 3.1.3 ZTA Using Network Infrastructure and Software Defined Perimeters (網路基礎架構與軟體定義邊界)
+- 我國政府機關所採取的模型  
+- 參考 NIST SP 800-207 文件的 ZTA 部署模型，我國政府機關所採取的模型為資源門戶部署（Resource Portal-Based Deployment）方式
+- 對於任何對資通系統之存取皆須透過存取閘道，並將`身分鑑別`、`設備鑑別`與`信任推斷`列為三大核心機制。
 ## 部屬模式 Multiple ZTA deployment models
   - 參考資料: NIST NIST SP 800-207| 3.2 Deployed Variations of the Abstract Architecture
     - 3.2.1 Device Agent/Gateway-Based Deployment
@@ -100,6 +104,18 @@
     - 3.2.3 Resource Portal-Based Deployment
     - 3.2.4 Device Application Sandboxing
 ## 導入`零信任架構`步驟 ==> 階段式導入
+- [John Kindervag|導入零信任架構的五步驟](https://www.ithome.com.tw/news/165398)
+  - 零信任的實施可以分成五個步驟，這些步驟目的在於在簡化安全流程，確保系統的每個保護面得到充分保護
+    - 步驟1：定義保護面，確認DAS元素(DAS元素，包括：資料、應用、資產和服務的縮寫。)
+    - 步驟2：繪製交易流
+      - 在實施零信任之前，必須全面了解系統的交易流
+      - 因為只有在理解這些流動的基礎上，才能準確地設計出合適的安全策略，以保護每個保護面
+    - 步驟3：設計零信任環境
+    - 步驟4：制定零信任策略(Create Zero Trust Policy)
+      - 零信任的核心原則 ==>「永不信任，始終驗證」
+      - 目的就是通過設計一套精細、動態且基於風險的存取控制政策，來確保組織內部所有的資料、資產和應用的安全性。 
+    - 步驟5：持續監控與維護（Monitor and Maintain）
+      - 通過不斷的監控、資料收集和分析確保系統的安全策略能夠動態應對各種威脅，並且根據新的風險情況對策略，進行調整和維護，以保持整個系統的安全。 
 
 ## 零信任架構可能面臨的威脅挑戰
   - 參考資料: NIST NIST SP 800-207| ch 5. Threats Associated with Zero Trust Architecture
