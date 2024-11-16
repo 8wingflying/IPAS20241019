@@ -12,7 +12,7 @@
 - 定義
   - `零信任`是一種網路資安的架構和目標，它的假設前提是：任何交易、個體與身分在獲得信任並持續維持信任之前，全都不可信任。
   - 這種安全模型只是基於「信任最小化」的基本原則進行設計
-  - 零信任架構的理念強調「永不信任，始終驗證」
+  - 零信任架構的理念強調「永不信任，始終驗證」 Never Trust, Always Verify
   - 各種別名
     - 零信任安全模型
     - Zero trust security model|零信任架構|零信任網路架構|ZTA |ZTNA
@@ -63,7 +63,15 @@
     - 4.建立資料蒐集網路，以掌握網路的完整狀況。 
 - 2018年末，美國國家標準與技術研究院 (NIST) 和美國國家網絡安全卓越中心 (NCCoE) 的網絡安全研究人員發行 NIST SP 800-207 Zero Trust Architecture
 - 2019年，英國國家網路安全中心NCSC建議網路架構師考慮對新增IT部署採用零信任措施，尤其是計劃大量使用雲服務時
-
+## 各國推動
+- 美國
+  - 從2021年總統拜登提出行政命令，要求聯邦政府推動零信任架構，美國政府發表零信任架構安全原則
+  - 基於該原則，美國總務署GSA提出零信任採購指引
+  - 國防部DOD提出零信任策略
+  - 美國網路暨基礎設施安全局（CISA）也提出零信任成熟度模型。
+  - 美國國家標準暨技術研究院（NIST）也發布零信任架構SP 800-207、實施指引草案，以及SP 800-63身分與存取管理指引第四版草案等。
+- 韓國
+  - 2023年6月由科學技術情報通訊部（MSIT）發表零信任準則1.0 
 ## NIST 零信任架構|Zero Trust Architecture|ZTA
 - 參考資料:
   - NIST SP 800-207 Zero Trust Architecture
@@ -94,15 +102,27 @@
     - 3.1.2 ZTA Using Micro-Segmentation(微分段)
       - 在零信任架構下，對於特定資產、資料或應用，要設置更精細化的安全邊界，以確保更嚴格的存取控制。 
     - 3.1.3 ZTA Using Network Infrastructure and Software Defined Perimeters (網路基礎架構與軟體定義邊界)
-- 我國政府機關所採取的模型  [資料來源](https://moda.gov.tw/press/multimedia/blog/9773)
+- 我國政府機關所採取的模型  
+  - 參考資料
+    - [資安院：政府推動零信任架構，今年完成A級機關導入身分鑑別，2機關將先導入信任推斷機制](https://www.ithome.com.tw/news/163079)
+    - [資料來源](https://moda.gov.tw/press/multimedia/blog/9773) 
   - 參考 NIST SP 800-207 文件的 ZTA 部署模型，我國政府機關所採取的模型為資源門戶部署（Resource Portal-Based Deployment）方式
   - 對於任何對資通系統之存取皆須透過存取閘道，並將`身分鑑別`、`設備鑑別`與`信任推斷`列為三大核心機制。
+    - 身分鑑別 ==> 採用多因子身分鑑別（例如FIDO無密碼驗證）與鑑別聲明；
+      - 依照NIST SP800-63-3，該標準建立的身分鑑別機制，將身分鑑的嚴謹度定義為身分保證等級（IAL）、鑑別保證等級（AAL）、聯邦保護等級（FAL），每個身分鑑別等級的嚴謹程度又分為3個1、2、3等級（數字愈高，等級愈高）
+      - 我國採用基準概念，政府公部門推動零信任架構，至少需滿足IAL2、AAL3及FAL2
+    - 設備鑑別 ==>  則是鑑別使用設備、設備健康管理；
+    - 信任推斷 ==> 則是綜合使用者的身分、設備及行為各方面，作為信任推斷的依據。
+
 
 ## 部屬模式 Multiple ZTA deployment models
   - 參考資料: NIST NIST SP 800-207| 3.2 Deployed Variations of the Abstract Architecture
     - 3.2.1 Device Agent/Gateway-Based Deployment
     - 3.2.2 Enclave-Based Deployment
-    - 3.2.3 Resource Portal-Based Deployment
+    - 3.2.3 Resource Portal-Based Deployment資源門戶的部署方式
+      - 零信任架構分為核心組件、支援組件
+      - 核心組件控制資源的存取，負責鑑別、授權、管理連線
+      - 支援組件則是支援存取決策的周邊系統，例如身分管理、活動日誌、威脅情資、資料存取政策等等。
     - 3.2.4 Device Application Sandboxing
 
 ## 導入`零信任架構`步驟 ==> 階段式導入
