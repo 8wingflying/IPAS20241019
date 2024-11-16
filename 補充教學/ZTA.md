@@ -10,16 +10,38 @@
 
 # 零信任架構|Zero Trust Architecture|ZTA
 - 定義
-  - 零信任安全模型|Zero trust security model|零信任架構|零信任網路架構|ZTA |ZTNA|無邊界安全perimeterless security
+  - `零信任`是一種網路資安的架構和目標，它的假設前提是：任何交易、個體與身分在獲得信任並持續維持信任之前，全都不可信任。
+  - 這種安全模型只是基於「信任最小化」的基本原則進行設計
+  - 零信任架構的理念強調「永不信任，始終驗證」
+  - 各種別名
+    - 零信任安全模型
+    - Zero trust security model|零信任架構|零信任網路架構|ZTA |ZTNA
+    - 無邊界安全perimeterless security
   - 傳統安全模式(傳統信任模型) vs 零信任架構
     - 傳統的信任模型是「內外有別」 ==> 內網 | 外網 ,網路邊界, 縱深防禦(depth in defense)
       - 對於內部和外部的信任程度並不一樣，這種方式在過去也主導了網路安全的策略。
         - 內網 ==> 彼此信任
         - 外部 ==> 不信任
+      - 一般企業組織會用一條無形的分界線，來區分內部及外部的數位資料和財產，並使用防火牆及各式各樣的資安防護軟硬體設備，來保護分界線安全：來自內部員工如果要存取資料，資通系統通常預設相當高的權限（信任度）。
       - 隨著內部網路和外部攻擊者的界限逐漸模糊，傳統的信任模型已經無法有效應對日益複雜的網路威脅。
+      - 內部威脅 
+        - 內部威脅者，原本是系統中的「可信用戶」，擁有多重身分驗證措施，但由於缺乏對資料流量的監控，他們最終成功竊取大量敏感資料
+        - 曼寧（Chelsea Manning）|將超過70萬份美國國防部和國務院的機密文件，洩露給維基解密（WikiLeaks）
+        - 斯諾登（Edward Snowden）|向《衛報》和《華盛頓郵報》的記者洩露了大量的機密文件，揭露美國國家安全局針對全球互聯網通信和電話記錄的全球監控計畫。
+        - [John Kindervag說](https://www.ithome.com.tw/news/165397)「這些案例揭露了傳統網路安全模式中的致命漏洞，意即進入系統後就可以自由存取的權限。」。
     - 零信任架構
       - 每一個數位行為──無論是來自內部還是外部──都被視為潛在的風險
       - 這意味著所有的流量、設備和用戶，都必須被持續監控和驗證。 
+  - [保護面（Protect Surface） vs 攻擊面（Attack Surface）](https://www.ithome.com.tw/news/165397)
+    - 傳統 ==> 攻擊面（Attack Surface）==> 網路安全討論都集中在如何管理「攻擊面」
+      - 但攻擊面不斷擴大，幾乎無法完全控制。 
+    - 零信任 ==>  保護面（Protect Surface）
+      - 與其嘗試縮小攻擊面，不如將焦點轉向保護面
+      - 這一思路轉變，有助於企業集中力量保護最核心的資產，避免資源分散。
+    - 案例:特勤局的保護
+      - 特勤局的保護對象並非每位民眾或整個城市，而僅限於總統及其家人
+      - 這樣的保護策略，非常類似零信任的做法，重點在於精準保護，而不是試圖一網打盡，避免所有風險。
+
 ## 歷史發展:
 - 1994年4月，Stephen Paul Marsh在其博士論文中提出了「零信任zero trust」一詞
 - 2003年 Jericho Forum強調了為組織IT系統定義邊界的挑戰性，討論了當時稱為「去邊界化」的趨勢。
@@ -69,6 +91,7 @@
 - 參考資料: NIST NIST SP 800-207| 3.1 Variations of Zero Trust Architecture Approaches
     - 3.1.1 ZTA Using Enhanced Identity Governance(增強的身分治理)
     - 3.1.2 ZTA Using Micro-Segmentation(微分段)
+      - 在零信任架構下，對於特定資產、資料或應用，要設置更精細化的安全邊界，以確保更嚴格的存取控制。 
     - 3.1.3 ZTA Using Network Infrastructure and Software Defined Perimeters (網路基礎架構與軟體定義邊界)
 ## 部屬模式 Multiple ZTA deployment models
   - 參考資料: NIST NIST SP 800-207| 3.2 Deployed Variations of the Abstract Architecture
