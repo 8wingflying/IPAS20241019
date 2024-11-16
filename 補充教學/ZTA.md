@@ -64,8 +64,9 @@
 - 2018年末，美國國家標準與技術研究院 (NIST) 和美國國家網絡安全卓越中心 (NCCoE) 的網絡安全研究人員發行 NIST SP 800-207 Zero Trust Architecture
 - 2019年，英國國家網路安全中心NCSC建議網路架構師考慮對新增IT部署採用零信任措施，尤其是計劃大量使用雲服務時
 ## 各國推動
-- 美國
-  - 從2021年總統拜登提出行政命令，要求聯邦政府推動零信任架構，美國政府發表零信任架構安全原則
+- 美國  
+  - 2020年8月，NIST已公布SP 800-207標準文件，成為美國政府採用ZTA的指南
+  - 從2021年5月總統拜登提出行政命令（EO 14028），要求聯邦政府推動零信任架構，美國政府發表零信任架構安全原則
   - 基於該原則，美國總務署GSA提出零信任採購指引
   - 國防部DOD提出零信任策略
   - 美國網路暨基礎設施安全局（CISA）也提出零信任成熟度模型。
@@ -96,7 +97,7 @@
     - 第一種: Criteria(情境)- versus score(分數)-based
     - 第二種: Singular(單一) versus contextual(上下文本)
 
-## ZTA 模式
+## ZTA的3項必要技術
 - 完整的零信任方案應包含3個要素
   - 參考資料: NIST NIST SP 800-207| 3.1 Variations of Zero Trust Architecture Approaches
     - 3.1.1 ZTA Using Enhanced Identity Governance(增強的身分治理)
@@ -121,7 +122,7 @@
       - 基於信任推斷來決定存取權限，信任推斷機制可能制定規則、分數，或是混合規則與分數。
       - 以分數為例，依使用情境計算每次存取的信任分數，綜合參考身分鑑別、設備鑑別、設備健康、IP位址、登入時間，還有外部情資如CVSS評分、EPSS漏洞利用評分等等，根據上述資料計算信任等級，再依權重、信任等級計算出信任分數，依不同的信任分數允許或是拒絕存取。 
 
-## 部屬模式 Multiple ZTA deployment models
+## 部屬模式 Multiple ZTA deployment models |4種ZTA部署方式
   - 參考資料: NIST NIST SP 800-207| 3.2 Deployed Variations of the Abstract Architecture
     - 3.2.1 Device Agent/Gateway-Based Deployment
     - 3.2.2 Enclave-Based Deployment
@@ -182,3 +183,5 @@
 ## 參考資料
 - 2024[【回歸根本定義，捍衛網路戰爭的無形防線】零信任之父第一手導讀零信任架構](https://www.ithome.com.tw/news/165397)
 - [企業如何導入零信任架構？專家由淺入深剖析上手關鍵](https://www.ithome.com.tw/news/157027)
+- [【搞懂零信任，從理解NIST SP 800-207著手】打造以零信任原則的企業網路安全環境](https://www.ithome.com.tw/news/145709)
+- [【臺灣資安大會直擊】看懂零信任架構，先釐清對於ZTA常見的3大迷思](https://www.ithome.com.tw/news/144551)
