@@ -1,6 +1,6 @@
 # 管理篇
 - [FIDO](FIDO.md)
-- 零信任(Zero trust)
+- [零信任架構|Zero Trust Architecture|ZTA](ZTA.md)
 
 
 # 技術篇
