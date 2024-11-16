@@ -153,3 +153,6 @@
 ## 推薦閱讀
 - [零信任網路｜在不受信任的網路中建構安全系統 (Zero Trust Networks)](https://www.tenlong.com.tw/products/9789865026332?list_name=srh)
 - [零信任安全架構設計與實現 Zero Trust Security: An Enterprise Guide](https://www.tenlong.com.tw/products/9787302631507?list_name=srh)
+## 參考資料
+- 2024[【回歸根本定義，捍衛網路戰爭的無形防線】零信任之父第一手導讀零信任架構](https://www.ithome.com.tw/news/165397)
+- [企業如何導入零信任架構？專家由淺入深剖析上手關鍵](https://www.ithome.com.tw/news/157027)
