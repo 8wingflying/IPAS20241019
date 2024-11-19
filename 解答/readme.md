@@ -2,6 +2,7 @@
 
 # 技術篇
 
+#### 12. DNS Zone Transfer
 #### 17.提權
 - Linux 提權
   - Dirty Cow 
@@ -26,3 +27,56 @@
 - 網路芳鄰的設定
   - [Windows 10 網路芳鄰完整教學：如何共享資料夾？如何共用列表機？](https://kkplay3c.net/win10-smb/)
   - [Win11 網路芳鄰設定：3分鐘排除找不到電腦問題【圖文教學】](https://kkplay3c.net/win11-network-neighborhood-settings/)
+#### 23. IP camera 安全串流
+- SMTPS|SMTP Secure (SMTPS)
+  - [SMTP Secure (SMTPS) 如何運作？](https://www.cloudflare.com/zh-tw/learning/email-security/smtp-port-25-587/)
+  - SMTPS 比普通的 SMTP 更安全，因為它給電子郵件加密，對電子郵件進行驗證，防止資料篡改。
+  - 它透過使用 Transport Layer Security (TLS) 通訊協定來實現這三點。
+    - 加密：TLS 會在資料穿越網路時加密資料。加密過程旨在打亂資料，以便只有正確解密金鑰的擁有者才能解密並檢視資料。透過加密，資料在網際網路等不可信環境中傳輸時可保持安全。
+    - 驗證：TLS 使用數位簽章來確保網路流量確實是來自其聲稱的來源。如果沒有這一步，電腦將接收來自假冒者、攻擊者或其他惡意方的資料。
+    - 電子郵件完整性：數位簽名也有助於確保資料未遭到竄改。
+  - SMTPS 的官方預設連接為連接埠 587。
+  - SMTPS 連線以一個「STARTTLS」命令開始，告知郵件伺服器將透過 TLS 傳送 SMTP 流量。
+  - 早期版本也使用連接埠 465
+- email使用的協定:
+  - SMTP：簡單郵件傳輸協定（Simple Mail Transfer Protocol），用於發送電子郵件的傳輸協定；主要用來從郵件用戶端向郵件伺服器發送郵件,也可以用來在郵件伺服器之間轉發郵件。
+    - [簡單郵件傳輸協定](https://zh.wikipedia.org/zh-tw/%E7%AE%80%E5%8D%95%E9%82%AE%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
+    - SMTP伺服器通常使用傳輸控制協定（TCP），在埠25（用於伺服器之間）和埠587（用於來自已認證客戶端的提交）上執行，支援加密與非加密兩種方式。
+    - 提供SSL加密的SMTP協定被稱為SMTPS
+  - POP3：Post Office Protocol，用於接收電子郵件的標準協定；
+    - 未加密的 IMAP 使用連接埠 143，加密的 IMAP 則使用連接埠 993 
+  - IMAP| Internet Message Access Protocol，互聯網消息協定，是POP3的代替協議；後兩者用來從郵件伺服器獲取郵件。
+    - 未加密的 POP3 使用連接埠 110，加密的 POP3 則使用連接埠 995 
+- RTSPS
+  - Secure RTSP streaming - SRTP/RTSPS
+    - [從零開始精通RTSP之加密 - CSDN博客](https://blog.csdn.net/hope_wisdom/article/details/138939858) 
+  - RTSP|Real Time Streaming Protocol [30-13之 RTSP 傳輸協議](https://ithelp.ithome.com.tw/articles/10205976)
+    - 被設計出來是為了可以控制串流媒體伺服器的協議  ==> Client-server架構
+    - 定義了控制的方法與參數 如：暫停/繼續、後退、前進等。
+    - 它是一個多媒體播放控制協議
+    - 我們先發送一個觀看影片的請求給 Server，然後它就開始以串流型式來傳輸影片，然後這時我們可以用 RTSP 所提供的一些方法，來進行影片的快轉或暫停，為了能控制串流就是它被設計出來的原理。
+    - [流媒體傳輸協議系列之--RTSP協議詳解](https://www.itread01.com/articles/1476115529.html)
+    - [即時串流協定 - 維基百科](https://zh.wikipedia.org/zh-tw/%E5%8D%B3%E6%99%82%E4%B8%B2%E6%B5%81%E5%8D%94%E5%AE%9A)
+- SFTP
+  - FTP |File Transfer Protocol|文件傳輸協議
+    - 用於Internet上的控制文件的雙向傳輸。同時，它也是一個應用程式（Application）。
+    - FTP的兩個概念：下載」（Download）和」上傳」（Upload）。
+    - 下載文件  ==> 就是從遠程主機拷貝文件至自己的計算機上
+    - 上傳文件  ==> 就是將文件從自己的計算機中拷貝至遠程主機上
+    - 
+  - SFTP | SSH 文件傳輸協議 |SSH File Transfer Protocol |安全文件傳輸協議（Secure File Transfer Protocol）
+    - 技術教學
+      - [手把手教你使用 SFTP 安全地傳輸文件]()
+      - WinSCP :: Official Site :: Free SFTP and FTP client
+      - [如何在 Windows 架設高安全性的 SFTP (SSH File Transfer Protocol) 伺服器](https://blog.miniasp.com/post/2021/12/12/Enhanced-Security-for-SFTP-SSH-File-Transfer-Protocol-on-Windows)
+  - ftps |FTP Secure
+    - SFTP（SSH File Transfer Protocol）：
+
+SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安全文件傳輸。 
+- RDP |遠端桌面通訊協定 |Remote Desktop Protocol
+  - 遠端桌面通訊協定 (RDP) 是用於遠端使用桌上型電腦的通訊協定或技術標準。
+  - 遠端桌面軟體可以使用幾種不同的通訊協定，包括 RDP、獨立運算架構 (ICA) 和虛擬網路運算 (VNC)
+  - RDP 是最常用的通訊協定。RDP 最初由 Microsoft 發佈，可用於大多數 Windows 作業系統，但它也可以與 Mac 作業系統一起使用。
+  - 預設 「TCP 3389」連接埠
+
+#### 29.
