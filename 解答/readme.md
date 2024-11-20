@@ -17,14 +17,37 @@
 #### 12.[GDPR](GDPR.md)
 #### 32.[FIDO](FIDO.md)
 #### 33.[零信任架構(ZTA)](ZTA.md)
-# 技術篇 
 
+# 技術篇 
 #### 12. DNS Zone Transfer
 - [DNS redundancy: What are secondary DNSs and zone transfers?](https://blogs.manageengine.com/clouddns/2023/01/11/dns-redundancy-what-are-secondary-dnss-and-zone-transfers.html)
-- Zones and zone files
-- Securing zone transfers
-  - IP address restriction
-  - DNS transfer signature(TSIG) 
+- Zones(區域) and zone files(區域檔案)
+  - DNS 伺服器中託管的網域稱為Zones(區域)。
+  - zone files(區域檔案)是一個人類可讀的文字檔，其中包含不同類型的 DNS 記錄。
+    - SOA 記錄|SOA (Start of Authority) DNS records：表示授權的開始
+    - A records(記錄)：映射到網域或子網域的 IPv4 位址
+    - AAAA records(記錄)：映射到域或子域的 IPv6 位址
+    - CNAME 記錄：指向正式名稱的規範記錄
+    - MX 記錄：指向郵件伺服器的郵件交換記錄
+    - TXT 記錄：用於各種驗證
+    - PTR 記錄：反向 DNS 查找記錄
+- primary(主|首座) DNS server vs  secondary(二當家) DNS servers
+  - 由主 DNS 伺服器託管和管理的區域檔稱為主 DNS 區域。
+  - DNS 是核心基礎設施元件，它需要 100% 的可用性。為了獲得更高的可擴展性、安全性和可用性，使用了輔助 DNS 伺服器。
+- zone transfers(區域傳輸)
+  - Securi區域傳輸是一種機制，用於將託管區域的主 DNS 伺服器的最新資訊同步到輔助 DNS。
+  - 區域傳輸包括兩種類型：
+    - 1.全區轉移 （AXFR）：主 DNS 伺服器通知輔助 DNS 伺服器已對特定區域進行了更改，輔助 DNS 聯繫主 DNS 以檢查發生更改的區域的 SOA 記錄中的序號。如果主 DNS 上的序號大於該區域的輔助 DNS 伺服器的序號，則會將整個區域檔從主 DNS 伺服器複製到輔助 DNS 伺服器。
+    - 2.增量區域傳輸 （IXFR）： 主 DNS 伺服器通知輔助 DNS 伺服器已對特定區域進行了更改，輔助 DNS 聯繫主 DNS 以檢查發生更改的區域的 SOA 記錄中的序號。如果主 DNS 上的序號大於該區域的輔助 DNS 伺服器的序號，則輔助 DNS 伺服器會將上次更改與現有版本進行比較，並僅從主 DNS 複製更改的記錄。
+  - 次要伺服器會定期檢查主 DNS 伺服器是否有任何更改，並複製最新的區域檔。
+  - 來自輔助 DNS 伺服器的定期檢查基於區域 SOA 記錄中設置的刷新間隔。
+- Attacking zone transfers
+  - 攻擊者可以使用 AXFR 請求將啟用了區域傳輸的區域下載到主 DNS 伺服器
+- Securing(安全強化) zone transfers
+  - 1.IP address restriction(IP 地址限制)：僅允許從輔助 DNS 伺服器的 IP 向主 DNS 伺服器發出區域傳輸請求
+  - 2.DNS transfer signature(TSIG) :啟用 DNS TSIG。
+    - TSIG 是主 DNS 伺服器和輔助 DNS 伺服器之間預共用的對稱加密金鑰。
+    - 每當在啟用了 TSIG 的主 DNS 伺服器和輔助 DNS 伺服器之間啟動區域傳輸 （AXFR/IXFR） 時，都會使用 TSIG 金鑰驗證參與區域傳輸的兩個伺服器之間的通信，並且區域傳輸會安全地完成。
 
 #### 17.提權
 - Linux 提權
@@ -38,6 +61,7 @@
   - Single executable including both client and server.
   - Written in Go (golang).
   - Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network. 
+
 #### 18.網路芳鄰
 - 利用「電腦瀏覽服務（Computer Browser Service）」，讓我們可以在電腦上看到其他電腦、工作群組（workgroup）及網域（domain）以及各電腦上的分享資源。
 - Server Message Block (SMB) protocol | 伺服器訊息區塊
@@ -139,8 +163,10 @@ SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安�
   - On their account on Twitter, VXUG reports on and verifies cybersecurity breaches.[ 
 
 #### 34.數位版權管理| Digital rights management| DRM
+
 #### 40.IIS Log File
 - [Day24. 凡走過必留下痕跡 - Logging, IIS Log](https://ithelp.ithome.com.tw/articles/10305315)
+
 #### 43. [RFC 5424: The Syslog Protocol](https://www.rfc-editor.org/rfc/rfc5424)
 - [Syslog 和 RFC 5424 分類的實際用途](https://hackmd.io/@hiiii/SklQV_JtR)
 - PRI = Facility * 8 + Severity
