@@ -107,7 +107,8 @@
 - 我國政府機關所採取的模型  
   - 參考資料
     - [資安院：政府推動零信任架構，今年完成A級機關導入身分鑑別，2機關將先導入信任推斷機制](https://www.ithome.com.tw/news/163079)
-    - [資料來源](https://moda.gov.tw/press/multimedia/blog/9773) 
+    - [資料來源](https://moda.gov.tw/press/multimedia/blog/9773)
+    - [國家資通安全研究院|](https://www.nics.nat.gov.tw/core_business/cybersecurity_defense/ZTA/) 
   - 參考 NIST SP 800-207 文件的 ZTA 部署模型，我國政府機關所採取的模型為資源門戶部署（Resource Portal-Based Deployment）方式
   - 對於任何對資通系統之存取皆須透過存取閘道，並將`身分鑑別`、`設備鑑別`與`信任推斷`列為三大核心機制。
     - 身分鑑別 ==> 採用多因子身分鑑別（例如FIDO無密碼驗證）與鑑別聲明；
