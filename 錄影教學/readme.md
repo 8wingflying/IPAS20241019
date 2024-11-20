@@ -17,11 +17,19 @@
   - [4.2+4.3](https://youtu.be/e97DdQd1nw0) 
 ## 錄影教學:技術篇
 - 單元一:網路與通訊安全
+  - 1-1.網路概論
+  - 1-2.網路攻擊模式分析
+  - 1-3.網路安全技術
+  - 1-4.通訊安全(Communication Security)
+    - 無線網路安全
+    - 安全協定:VPN SSH
+  - 1.5.安全測試技術(Security Testing and Assessment) 
 - 單元二:作業系統與應用程式安全
   - [2.1.系統安全](https://youtu.be/3sD2JOEX3uI)
   - [2.2.網站應用程式安全](https://youtu.be/rP4uuo3hWFE)
   - [2.3.程式安全](https://youtu.be/rjT9ArnvUo8) 
 - 單元三:資安維運技術
+  - [3-1.惡意程式防護與弱點管理]() 
 - 單元四:新興科技安全
   - [4_1_雲端安全](https://youtu.be/294mH9kNAuk)
   - [4_2.行動裝置安全](https://youtu.be/_sdXIay3W3w)
