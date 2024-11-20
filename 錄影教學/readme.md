@@ -8,28 +8,35 @@
     - [智慧財產權](https://youtu.be/4yHJv_mkqBg)
 - 單元二:資產與風險管理
   - [2-1.資產管理:分類分級與盤點](https://youtu.be/TcH-fQPTytA)
+  - 2-2.風險評鑑(Risk Assessment):沒錄影
+  - 2-3.風險處理(Risk Treatment):沒錄影
 - 單元三:存取控制、加解密與金鑰管理
-  - [存取控制](https://youtu.be/N2AVpmYAjoM)
-  - [密碼學](https://youtu.be/_goeHFFQXLg)
-  - [密碼學應用](https://youtu.be/MIaSAjvdHnk)
+  - 3.1.[存取控制](https://youtu.be/N2AVpmYAjoM)
+  - 3-2.身份認證:沒錄影
+  - 3-3.加解密與金鑰生命週期
+    - [密碼學](https://youtu.be/_goeHFFQXLg)
+    - [密碼學應用](https://youtu.be/MIaSAjvdHnk)
 - 單元四:事故管理與營運持續
-  - [4.1](https://youtu.be/h8lQEYPHaRs)
-  - [4.2+4.3](https://youtu.be/e97DdQd1nw0) 
+  - [4.1事件與事故管理](https://youtu.be/h8lQEYPHaRs)
+  - [4.2備份與備援+4.3營運持續](https://youtu.be/e97DdQd1nw0) 
+
 ## 錄影教學:技術篇
 - 單元一:網路與通訊安全
-  - 1-1.網路概論
-  - 1-2.網路攻擊模式分析
-  - 1-3.網路安全技術
-  - 1-4.通訊安全(Communication Security)
+  - 1-1.網路概論:沒錄影
+  - [1-2.網路攻擊模式分析](https://youtu.be/ZdgoHYPHyBo)
+  - [1-3.網路安全技術](https://youtu.be/V9ZIF4K6gv0)
+  - 1-4.通訊安全(Communication Security) [待上傳|已達YOUTUBE上限]
     - 無線網路安全
     - 安全協定:VPN SSH
-  - 1.5.安全測試技術(Security Testing and Assessment) 
+  - 1.5.安全測試技術(Security Testing and Assessment) [待上傳|已達YOUTUBE上限]
 - 單元二:作業系統與應用程式安全
   - [2.1.系統安全](https://youtu.be/3sD2JOEX3uI)
   - [2.2.網站應用程式安全](https://youtu.be/rP4uuo3hWFE)
   - [2.3.程式安全](https://youtu.be/rjT9ArnvUo8) 
 - 單元三:資安維運技術
-  - [3-1.惡意程式防護與弱點管理]() 
+  - [3-1.惡意程式防護與弱點管理]()[待上傳|已達YOUTUBE上限]
+  - 3-2.資料安全及備份管理:沒錄影
+  - 3-3.日誌管理 :沒錄影
 - 單元四:新興科技安全
   - [4_1_雲端安全](https://youtu.be/294mH9kNAuk)
   - [4_2.行動裝置安全](https://youtu.be/_sdXIay3W3w)
