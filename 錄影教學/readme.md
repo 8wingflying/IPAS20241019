@@ -27,7 +27,3 @@
   - [4_2.行動裝置安全](https://youtu.be/_sdXIay3W3w)
   - [4_3_IOTSecurity](https://youtu.be/922B9ey8weo)
 
-
-- FIDO身分認證
-- 零信任架構 | ZTA | Zero Trust Architecture
-  - [國家資通安全研究院|](https://www.nics.nat.gov.tw/core_business/cybersecurity_defense/ZTA/) 
