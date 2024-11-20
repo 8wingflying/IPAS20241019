@@ -65,20 +65,21 @@
     - [流媒體傳輸協議系列之--RTSP協議詳解](https://www.itread01.com/articles/1476115529.html)
     - [即時串流協定 - 維基百科](https://zh.wikipedia.org/zh-tw/%E5%8D%B3%E6%99%82%E4%B8%B2%E6%B5%81%E5%8D%94%E5%AE%9A)
 - SFTP
-  - FTP |File Transfer Protocol|文件傳輸協議
+  - FTP |File Transfer Protocol| [檔案傳輸協議](https://zh.wikipedia.org/zh-tw/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
     - 用於Internet上的控制文件的雙向傳輸。同時，它也是一個應用程式（Application）。
     - FTP的兩個概念：下載」（Download）和」上傳」（Upload）。
     - 下載文件  ==> 就是從遠程主機拷貝文件至自己的計算機上
     - 上傳文件  ==> 就是將文件從自己的計算機中拷貝至遠程主機上
     - FTP不是一項安全的協定，並且具有許多安全漏洞。1999年5月發布的RFC 2577中列出了以下幾個主要的漏洞：
-      - 暴力破解
-      - FTP反彈攻擊
-      - 封包擷取
-      - 埠竊取（猜測下一個開放埠並篡奪合法連接）
-      - 欺騙攻擊
-      - 使用者名稱列舉
-      - 通過FTP傳輸的流量不會被加密，所有傳輸通過明文進行的。
-      - 任何能夠在網路上執行封包擷取（嗅探wireshark）的人都可以讀取使用者名稱、密碼、命令內容和資料。
+      - 暴力破解 Brute-force attack
+      - FTP反彈攻擊 FTP bounce attack
+      - 封包擷取 Packet capture
+      - 埠竊取（猜測下一個開放埠並篡奪合法連接） Port stealing
+      - 欺騙攻擊 Spoofing attack
+      - 使用者名稱列舉 Username enumeration
+      - DoS or DDoS
+    - 通過FTP傳輸的流量不會被加密，所有傳輸通過明文進行的。
+    - 任何能夠在網路上執行封包擷取（嗅探wireshark）的人都可以讀取使用者名稱、密碼、命令內容和資料。
   - SFTP | SSH 文件傳輸協議 |SSH File Transfer Protocol |安全文件傳輸協議（Secure File Transfer Protocol）
     - 技術教學
       - [手把手教你使用 SFTP 安全地傳輸文件]()
@@ -88,7 +89,9 @@
     - SFTP（SSH File Transfer Protocol）：
   - FTP (File Transfer Protocol) uses the following ports:
     - FTP
-      - 
+      - 資料連接埠
+        - 埠 20 是 FTP 最常見的資料連接埠。
+        - 埠 989 是 FTPS 的預設資料連接埠。
       - control port: TCP port 21
     - TFTP (Trivial File Transfer Protocol): UDP port 69
     - SFTP (Secure File Transfer Protocol): TCP port 22
