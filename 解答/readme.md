@@ -70,7 +70,15 @@
     - FTP的兩個概念：下載」（Download）和」上傳」（Upload）。
     - 下載文件  ==> 就是從遠程主機拷貝文件至自己的計算機上
     - 上傳文件  ==> 就是將文件從自己的計算機中拷貝至遠程主機上
-    - 
+    - FTP不是一項安全的協定，並且具有許多安全漏洞。1999年5月發布的RFC 2577中列出了以下幾個主要的漏洞：
+      - 暴力破解
+      - FTP反彈攻擊
+      - 封包擷取
+      - 埠竊取（猜測下一個開放埠並篡奪合法連接）
+      - 欺騙攻擊
+      - 使用者名稱列舉
+      - 通過FTP傳輸的流量不會被加密，所有傳輸通過明文進行的。
+      - 任何能夠在網路上執行封包擷取（嗅探wireshark）的人都可以讀取使用者名稱、密碼、命令內容和資料。
   - SFTP | SSH 文件傳輸協議 |SSH File Transfer Protocol |安全文件傳輸協議（Secure File Transfer Protocol）
     - 技術教學
       - [手把手教你使用 SFTP 安全地傳輸文件]()
@@ -78,7 +86,14 @@
       - [如何在 Windows 架設高安全性的 SFTP (SSH File Transfer Protocol) 伺服器](https://blog.miniasp.com/post/2021/12/12/Enhanced-Security-for-SFTP-SSH-File-Transfer-Protocol-on-Windows)
   - ftps |FTP Secure
     - SFTP（SSH File Transfer Protocol）：
-
+  - FTP (File Transfer Protocol) uses the following ports:
+    - FTP
+      - 
+      - control port: TCP port 21
+    - TFTP (Trivial File Transfer Protocol): UDP port 69
+    - SFTP (Secure File Transfer Protocol): TCP port 22
+    - SCP (Secure Copy Protocol): TCP port 22
+    - FTPS (FTP Secure): TCP port 990
 SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安全文件傳輸。 
 - RDP |遠端桌面通訊協定 |Remote Desktop Protocol
   - 遠端桌面通訊協定 (RDP) 是用於遠端使用桌上型電腦的通訊協定或技術標準。
