@@ -118,3 +118,11 @@ SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安�
 #### 34.數位版權管理| Digital rights management| DRM
 #### 40.IIS Log File
 - [Day24. 凡走過必留下痕跡 - Logging, IIS Log](https://ithelp.ithome.com.tw/articles/10305315)
+#### 43. RFC 5424
+- [Syslog 和 RFC 5424 分類的實際用途](https://hackmd.io/@hiiii/SklQV_JtR)
+- PRI = Facility * 8 + Severity
+- 165 = 20* 8 + 5 
+  - 說明
+    - PRI：優先級值（0-191）
+    - Facility：設施碼（0-23）  ==> 16-23	local use 0-7 (local0-local7)	本地使用 0-7
+    - Severity：嚴重程度（0-7）  ==> 5	==>Notice: normal but significant condition	注意：正常但重要的狀況
