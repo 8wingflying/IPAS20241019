@@ -86,4 +86,13 @@ SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安�
   - RDP 是最常用的通訊協定。RDP 最初由 Microsoft 發佈，可用於大多數 Windows 作業系統，但它也可以與 Mac 作業系統一起使用。
   - 預設 「TCP 3389」連接埠
 
-#### 29.
+#### 29.惡意程式
+- archive.org:Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.
+- VirusTotal
+- [ANY.RUN](https://any.run/)
+  - Innovative cloud-based sandbox with full interactive acces 
+- vx-underground.org
+  - vx-underground, also known as VXUG, is an educational website about malware and cybersecurity.
+  - It claims to have the largest online repository of malware.
+  - The site was launched in May, 2019 and has grown to host over 35 million pieces of malware samples.
+  - On their account on Twitter, VXUG reports on and verifies cybersecurity breaches.[ 
