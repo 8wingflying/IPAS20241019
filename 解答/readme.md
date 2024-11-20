@@ -5,7 +5,18 @@
 - [第43題錄影](https://youtu.be/2K8uJHVEvKg)
 
 # 管理篇
-
+#### 6. [Security of Network and Information Systems, NIS 2 Directive](https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new)
+- 盟第2022/2555號《於歐盟實施高度共通程度之資安措施指令》（Directive (EU) 2022/2555 on measures for a high common level of cybersecurity across the Union, NIS 2 Directive）於2023年1月16日正式生效
+- 其於《網路與資訊系統安全指令》（Directive on Security of Network and Information Systems, NIS Directive）之基礎上，對監管範圍、成員國協調合作，以及資安風險管理措施面向進行補充。
+- （1）監管範圍：NIS 2納入
+  - 公共電子通訊網路或服務供應、
+  - 特定關鍵產品（如藥品與醫療器材）製造、
+  - 社交網路平台與資料中心相關數位服務、
+  - 太空及公共行政等類型，
+  - 並以企業規模進行區分，所有中大型企業皆須遵守NIS 2之規定，而個別具高度安全風險之小型企業是否需要遵守，則可由成員國自行規範。
+#### 12.GDPR
+#### 32.[FIDO](FIDO.md)
+#### 33.零信任架構(ZTA)
 # 技術篇 
 
 #### 12. DNS Zone Transfer
