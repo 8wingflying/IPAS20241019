@@ -96,3 +96,5 @@ SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安�
   - It claims to have the largest online repository of malware.
   - The site was launched in May, 2019 and has grown to host over 35 million pieces of malware samples.
   - On their account on Twitter, VXUG reports on and verifies cybersecurity breaches.[ 
+
+#### 34.數位版權管理| Digital rights management| DRM
