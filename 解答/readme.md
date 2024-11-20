@@ -5,9 +5,16 @@
 #### 12. DNS Zone Transfer
 #### 17.提權
 - Linux 提權
-  - Dirty Cow 
+  - Dirty Cow
+  - SetUID 
 - Windows提權
   - [Windows提權 - Juicy Potato (Windows privilege escalation-Juicy Potato )](https://ithelp.ithome.com.tw/articles/10334049)
+  - Bypass UAC
+- [Chisel](https://github.com/jpillora/chisel)
+  - Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH.
+  - Single executable including both client and server.
+  - Written in Go (golang).
+  - Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network. 
 #### 18.網路芳鄰
 - 利用「電腦瀏覽服務（Computer Browser Service）」，讓我們可以在電腦上看到其他電腦、工作群組（workgroup）及網域（domain）以及各電腦上的分享資源。
 - Server Message Block (SMB) protocol | 伺服器訊息區塊
