@@ -116,3 +116,5 @@ SFTP 不同於FTP和FTPS，它是基於SSH協議的一個子協議，用於安�
   - On their account on Twitter, VXUG reports on and verifies cybersecurity breaches.[ 
 
 #### 34.數位版權管理| Digital rights management| DRM
+#### 40.IIS Log File
+- [Day24. 凡走過必留下痕跡 - Logging, IIS Log](https://ithelp.ithome.com.tw/articles/10305315)
