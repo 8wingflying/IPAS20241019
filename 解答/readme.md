@@ -20,6 +20,12 @@
 # 技術篇 
 
 #### 12. DNS Zone Transfer
+- [DNS redundancy: What are secondary DNSs and zone transfers?](https://blogs.manageengine.com/clouddns/2023/01/11/dns-redundancy-what-are-secondary-dnss-and-zone-transfers.html)
+- Zones and zone files
+- Securing zone transfers
+  - IP address restriction
+  - DNS transfer signature(TSIG) 
+
 #### 17.提權
 - Linux 提權
   - Dirty Cow
