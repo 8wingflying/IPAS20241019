@@ -15,7 +15,7 @@
 - SSL 3.0(不安全)
 - TLS 1.0(不安全)
 - TLS 1.1(不安全)
-- TLS 1.2(免強接受之最低標準):瀏覽器支援
+- TLS 1.2(勉強可接受之最低標準):瀏覽器支援度
 - TLS 1.3(現有最新版本)
 - 沒有 TLS 3.0 
 ## MS-SQL資料庫 == >參閱[SQL Server 技術文件](https://learn.microsoft.com/zh-tw/sql/sql-server/?view=sql-server-ver16)
