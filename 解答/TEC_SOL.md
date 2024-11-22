@@ -18,6 +18,7 @@
 - TLS 1.2(免強接受之最低標準):瀏覽器支援
 - TLS 1.3(現有最新版本)
 - 沒有 TLS 3.0 
+## MS-SQL資料庫 == >參閱[SQL Server 技術文件](https://learn.microsoft.com/zh-tw/sql/sql-server/?view=sql-server-ver16)
 # 單元三:資安維運技術
 # 單元四:新興科技安全
 ### 第75題
